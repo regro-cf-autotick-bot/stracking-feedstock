@@ -1,5 +1,5 @@
 {% set name = "stracking" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/sylvainprigent/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: f26b80e9f42ff599839d457c88edef9fdc4191e99963211e4ff7ffd58cac7c93
+  sha256: 0b69f937fa8895b2ed3c2095635e9307aa7ce5670940ed2c380d9986bb2c2dc0
 
 build:
   noarch: python
